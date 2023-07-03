@@ -5,6 +5,11 @@ public class sumOfArray {
 	public static void main(String[] args) 
 	{
 		int Size, i, Sum = 0;
+		int temp=0;
+		//initializing temp
+		
+
+
 		sc = new Scanner(System.in);
 	 
 		System.out.print(" Please Enter No of elements in an array : ");
