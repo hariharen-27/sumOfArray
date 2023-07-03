@@ -7,8 +7,9 @@ public class sumOfArray {
 		int Size, i, Sum = 0;
 		sc = new Scanner(System.in);
 	 
-		System.out.print(" Please Enter Number of elements in an array : ");
-		Size = sc.nextInt();	
+		System.out.print(" Please Enter No of elements in an array : ");
+		Size = sc.nextInt();
+		//Size of an array 	
 		
 		int [] a = new int[Size];
 		
@@ -22,6 +23,6 @@ public class sumOfArray {
 		{
 			Sum = Sum + a[i]; 
 		}		
-		System.out.println("\n The Sum of All Elements in this Array = " + Sum);
+		System.out.println("The Sum of All Elements in this Array = " + Sum);
 	}
 }
